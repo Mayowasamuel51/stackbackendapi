@@ -1,0 +1,28 @@
+
+download xampp 
+download php latest version on your system 
+
+
+
+
+
+
+
+
+api/
+
+POST  codardeveloper/  ->  to create a issue or problem 
+
+
+GET   codardeveloper/title   -> a search question 
+
+POST  codardeveloper/title  ->  answer  for a given problem
+
+GET  codardeveloper/answer/id  ->  when the codardeveloper/title posting is working . the id for the codardeveloper/title will appended  in answer/id
+
+
+
+GET   questions/ -> this is for getting all the question 
+
+GET   questions/id/problemtitle  ->   get a specific  question resource
+
